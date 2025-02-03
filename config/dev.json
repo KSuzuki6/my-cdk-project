@@ -1,0 +1,16 @@
+{
+    "region": "ap-northeast-1",
+    "vpcCidr": "10.0.0.0/16",
+    "apiName": "RobotManagementAPI-Dev",
+    "dynamoDbTables": {
+      "robotStatusTable": "RobotStatusTable-Dev",
+      "usersTable": "UsersTable-Dev"
+    },
+    "iot": {
+      "mqttBroker": "wss://iot-dev.example.com/mqtt"
+    },
+    "storage": {
+      "s3Bucket": "remote-robot-dev-frontend"
+    }
+  }
+  
